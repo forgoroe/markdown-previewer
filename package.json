@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/forgoroe/markdown-previewer#readme",
   "dependencies": {
+    "marked": "^0.3.6",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
