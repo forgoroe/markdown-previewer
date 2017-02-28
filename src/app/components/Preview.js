@@ -1,9 +1,13 @@
 import React from "react";
+import marked from 'marked';
 
-export class Preview extends React.Component{
-	render(){
+var Preview = React.createClass({
+	render: function(){
+	var result = marked(this.props.content);
 		return (
-				<div>Preview here</div>		
+				<div dangerouslySetInnerHTML={{__html: result}}></div>
 		);
 	}
-};
+});
+
+module.exports.Preview = Preview;

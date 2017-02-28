@@ -1,4 +1,12 @@
 textarea {
-  width: 400px;
-  height: 450px;
+  width:  400px;
+  height: 400px;
+}
+
+li:hover {
+    background-color: #151515;
+}
+a.navbar-brand{
+	color: white;
+	cursor: default;
 }

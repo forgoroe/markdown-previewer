@@ -1,12 +1,16 @@
 import React from "react";
 
 
-export class TextArea extends React.Component {
-    render() {
-        return ( 
-        	<textarea placeholder="Start typing markdown to get a live preview...">
-            	
+var TextArea = React.createClass({
+	getInitialState(){
+		return {value: ''};
+	},
+	render: function(){
+		return ( 
+        	<textarea onChange={this.props.onChange} placeholder="Start typing markdown to get a preview...">
             </textarea>
         );
-    }
-};
+	}
+});
+
+module.exports.TextArea = TextArea;

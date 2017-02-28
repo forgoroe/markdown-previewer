@@ -24,12 +24,12 @@ render: function() {
 		return (
         <div className="container">
         	<div className="row">
-        		<div className="col-xs-10 col-xs-offset-1">
+        		<div className="col-md-10 col-md-offset-2">
         			<Header onClick={this.handleClick}/>
         		</div>
         	</div>
         	<div className="row">
-        		<div className="col-xs-10 col-xs-offset-1">
+        		<div className="col-md-10 col-md-offset-2">
         			<Home />
         		</div>
         	</div>
@@ -41,12 +41,12 @@ render: function() {
 		return(
 			<div className="container">
         		<div className="row">
-        			<div className="col-xs-10 col-xs-offset-1">
+        			<div className="col-md-10 col-md-offset-2">
         				<Header onClick={this.handleClick}/>
         			</div>
         		</div>
         		<div className="row">
-        			<div className="col-xs-10 col-xs-offset-1">
+        			<div className="col-md-10 col-md-offset-2">
         				<App />
         			</div>
         		</div>
