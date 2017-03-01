@@ -3,7 +3,10 @@ import React from 'react';
 export class Reference extends React.Component{
 	render(){
 		return (
-			<h1>Markdown reference here</h1>
+			<div>
+				<hr/>
+				<h1 className="reference">Markdown reference here <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank"> <i className="material-icons">library_books</i></a></h1>
+			</div>
 			);
 	}
 

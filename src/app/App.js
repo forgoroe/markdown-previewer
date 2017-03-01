@@ -8,7 +8,7 @@ import { Reference } from "./components/Reference";
 export class App extends React.Component{
 	constructor(props) {
     super(props);
-    this.state = { value:"" };
+    this.state = { value: "Headline\n=======\n\nSubtitle\n-----------\n \n### Subtitle of subtitle\n\n*italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nList:\n\n  * Coding\n  * Running\n  * Thinking\n\nNumbered list:\n\n  1. First\n  2. Second\n  3. Third\n\n *[A link to nowhere](#)*" };
   	};
 
 	handleChange(e){
@@ -17,18 +17,16 @@ export class App extends React.Component{
 	
 	render(){
 		return (
-			<div className="container">
-				<div className="row">
-					<div className="col-md-6">
-						<TextArea onChange={this.handleChange.bind(this)} />
-					</div>
-					<div className="col-md-6">
+			<div>
+				<div className="col-md-6">
+					<TextArea defaultValue={this.state.value} onChange={this.handleChange.bind(this)} />
+				</div>
+				<div className="col-md-5 col-md-offset-1">
 						<Preview content={this.state.value}/>
-					</div>
 				</div>
 				<div className="row">
 					<div className="col-md-12">
-					<Reference />
+						<Reference />
 					</div>
 				</div>
 			</div>
