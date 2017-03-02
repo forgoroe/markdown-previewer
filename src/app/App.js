@@ -5,6 +5,7 @@ import { Preview } from "./components/Preview";
 import { Reference } from "./components/Reference";
 
 
+
 export class App extends React.Component{
 	constructor(props) {
     super(props);
@@ -18,7 +19,7 @@ export class App extends React.Component{
 	render(){
 		return (
 			<div>
-				<div className="col-md-6">
+				<div className="col-md-6" >
 					<TextArea defaultValue={this.state.value} onChange={this.handleChange.bind(this)} />
 				</div>
 				<div className="col-md-5 col-md-offset-1">

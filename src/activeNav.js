@@ -1,8 +1,6 @@
-window.onload = function(){
-	//TODO: better functional active "buttons". At the moment they only show active after clicking another element on the page.
-	//
+module.exports.activeNav = function(){
 	$(".navButton").on("click", function() {
     	$(".navButton").removeClass("active");
     	$(this).addClass("active");
-    });
-}
+    })
+};

@@ -4,6 +4,7 @@ import { render } from "react-dom";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { App } from "./App";
+import { activeNav } from "../activeNav";
 
 var Index = React.createClass({
 getInitialState(){
@@ -11,6 +12,8 @@ getInitialState(){
 	},
 
 handleClick: function(e){
+    activeNav();
+        
 	if(e.target.textContent.toLowerCase() == 'readme.md'){
 		this.setState({readmeOrApp: 'readme.md'});
 	} else {
