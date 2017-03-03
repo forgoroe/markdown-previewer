@@ -21,11 +21,24 @@ var config = {
 				presets: ["react", "es2015", "stage-2"]
 			}
 		},
-		{
-      		test: /\.md$/,
-      		loader: 'babel!react-markdown'
-    	}
-		]
+		
+    	{
+                test: /\.md$/,
+                use: [
+                    {
+                        loader: "html-loader"
+                    },
+                    {
+                        loader: "markdown-loader",
+                        options: {
+                            pedantic: true,
+                            
+                        }
+                    }
+                ]
+            }
+		],
+
 
 	}
 	
