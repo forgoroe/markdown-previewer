@@ -1,5 +1,5 @@
 # **markdown-previewer**
-**Type markdown and get a live preview _as you type_ **.
+**Type markdown and get a live preview _as you type_**.
 
 ![preview](http://res.cloudinary.com/forgoroe/image/upload/c_scale,w_682/v1488624257/previews/mdprev_prev.png)
 
@@ -12,7 +12,9 @@ In case you're already viewing my project on surge you may be asking yourself: "
 
 This project is part of a series of projects I'm building by following the [freeCodeCamp course](https://www.freecodecamp.com/).
 
-The [project](http://mdprev.surge.sh/) was uploaded to an amazing service called [*surge*](https://surge.sh/). I highly recommend checking it out.
+The [project](http://mdprev.surge.sh/) was uploaded to an amazing service called [*surge*](https://surge.sh/) ... I mean, they have a friggin' walrus svg as logo **-->** ![walrus](http://res.cloudinary.com/forgoroe/image/upload/c_scale,t_media_lib_thumb,w_104/v1488625807/previews/surge-logo.jpg) (How cool is that?) 
+
+I highly recommend checking them out.  
 
 As per usual I have tried to add a bit more functionality than simply meeting the requirements given by freeCodeCamp's [user stories](https://en.wikipedia.org/wiki/User_story). They may not be apparent features, but they are there! (just check the code for yourself ;) )
 
