@@ -27,3 +27,7 @@ textarea {
 #readme:hover, #theApp:hover{
 	background-color: #101010;
 }
+
+.placeHolder{
+	text-align: center;
+}
