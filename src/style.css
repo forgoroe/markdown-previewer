@@ -4,6 +4,10 @@ textarea {
   resize: none;
 }
 
+#root > div > div:nth-child(2) > div > div > div > div > p:nth-child(8) > img{
+	width: 100%;
+}
+
 .preview{
 	text-align: left;
 }

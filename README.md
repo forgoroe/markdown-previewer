@@ -1,7 +1,7 @@
 # **markdown-previewer**
 **Type markdown and get a live preview _as you type_**.
 
-![preview](http://res.cloudinary.com/forgoroe/image/upload/c_scale,w_682/v1488624257/previews/mdprev_prev.png)
+![preview](http://res.cloudinary.com/forgoroe/image/upload/c_scale,w_946/v1488624257/previews/mdprev_prev.png)
 
 ## **Why is there a preview here?**
 ### (If you're visiting this from mdprev.surge.sh)
