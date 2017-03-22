@@ -27,9 +27,7 @@ render: function() {
 		return (
         <div className="container">
         	<div className="row">
-        		<div className="col-md-12">
         			<Header onClick={this.handleClick}/>
-        		</div>
         	</div>
         	<div className="row">
         		<div className="col-md-12">
@@ -44,9 +42,7 @@ render: function() {
 		return(
 			<div className="container">
         		<div className="row">
-        			<div className="col-md-12">
         				<Header onClick={this.handleClick}/>
-        			</div>
         		</div>
         		<div className="row">
         			<div className="col-md-12">

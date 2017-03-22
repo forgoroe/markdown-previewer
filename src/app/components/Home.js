@@ -8,7 +8,7 @@ export class Home extends React.Component{
 		return(
 			<div className="container">
 				<div className="row">
-					<div dangerouslySetInnerHTML={{__html: result}} className="col-md-6"/>
+					<div dangerouslySetInnerHTML={{__html: result}} className="col-md-12"/>
 				</div>
 			</div>
 		);
